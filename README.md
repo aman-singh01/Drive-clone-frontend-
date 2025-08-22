@@ -29,7 +29,7 @@ File Storage & Sharing App empowers users to upload, manage, and share their fil
 
 
 
-Installation
+## Installation
 
 Install the project dependencies using npm:
 
@@ -39,15 +39,16 @@ Set Up Environment Variables
 
 Create a new file named .env.local in the root of your project and add the following content:
 
-NEXT_PUBLIC_APPWRITE_ENDPOINT="https://cloud.appwrite.io/v1"
-NEXT_PUBLIC_APPWRITE_PROJECT=""
-NEXT_PUBLIC_APPWRITE_DATABASE=""
-NEXT_PUBLIC_APPWRITE_USERS_COLLECTION=""
-NEXT_PUBLIC_APPWRITE_FILES_COLLECTION=""
-NEXT_PUBLIC_APPWRITE_BUCKET=""
-NEXT_APPWRITE_KEY=""
+- **NEXT_PUBLIC_APPWRITE_ENDPOINT** - "https://cloud.appwrite.io/v1"
+- **NEXT_PUBLIC_APPWRITE_PROJECT** - ""
+- **NEXT_PUBLIC_APPWRITE_DATABASE** - ""
+- **NEXT_PUBLIC_APPWRITE_USERS_COLLECTION** - ""
+- **NEXT_PUBLIC_APPWRITE_FILES_COLLECTION** - ""
+- **NEXT_PUBLIC_APPWRITE_BUCKET** - ""
+- **NEXT_APPWRITE_KEY** - ""
 
-Running the Project
+## Running the Project
 
-npm run dev
-Open http://localhost:3000 in  browser to view the project.
+- npm run dev
+  
+- Open http://localhost:3000 in  browser to view the project.
