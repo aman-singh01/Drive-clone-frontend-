@@ -1,28 +1,10 @@
-# File Storage & Sharing App
+# StoreIt File Storage & Sharing App
 
 A modern, efficient file storage and sharing platform built with **Next.js 15** and the **Appwrite Node SDK**—designed to enable smooth file upload, management, and sharing.
-
----
-
-## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
----
 
 ## Introduction
 
 File Storage & Sharing App empowers users to upload, manage, and share their files effortlessly. Built using Next.js 15 and Appwrite’s Node SDK, it offers a blazing-fast interface and seamless file handling backed by a powerful backend.
-
----
 
 ## Features
 
@@ -37,7 +19,6 @@ File Storage & Sharing App empowers users to upload, manage, and share their fil
 - **Modern & Responsive Design** — A clean, minimalist UI that works across devices.
 - **Cutting-Edge Tech** — Built with React 19, Next.js 15, Appwrite, TailwindCSS, ShadCN, and TypeScript.
 
----
 
 ## Tech Stack
 
@@ -46,29 +27,27 @@ File Storage & Sharing App empowers users to upload, manage, and share their fil
 | Frontend     | React 19, Next.js 15, TailwindCSS, ShadCN UI, TypeScript |
 | Backend      | Appwrite (Authentication, File Storage with Node SDK) |
 
----
 
-## Getting Started
 
-### Prerequisites
+Installation
 
-- Node.js (v16 or above)  
-- Appwrite instance (either local or hosted)
+Install the project dependencies using npm:
 
-### Installation
-
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
 npm install
 
-# Duplicate environment variables
-cp .env.example .env.local
+Set Up Environment Variables
 
-# Update the following in .env.local:
-# NEXT_PUBLIC_APPWRITE_ENDPOINT
-# NEXT_PUBLIC_APPWRITE_PROJECT_ID
-# NEXT_PUBLIC_APPWRITE_KEY
-# (Other Appwrite-related variables)
+Create a new file named .env.local in the root of your project and add the following content:
+
+NEXT_PUBLIC_APPWRITE_ENDPOINT="https://cloud.appwrite.io/v1"
+NEXT_PUBLIC_APPWRITE_PROJECT=""
+NEXT_PUBLIC_APPWRITE_DATABASE=""
+NEXT_PUBLIC_APPWRITE_USERS_COLLECTION=""
+NEXT_PUBLIC_APPWRITE_FILES_COLLECTION=""
+NEXT_PUBLIC_APPWRITE_BUCKET=""
+NEXT_APPWRITE_KEY=""
+
+Running the Project
 
 npm run dev
+Open http://localhost:3000 in  browser to view the project.
